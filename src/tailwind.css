@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply text-center bg-gray-700;
+    }
+
+    footer {
+        @apply text-white font-sans text-xl pt-52;
+    }
+
+    h1 {
+        @apply text-7xl font-bold text-white pt-14;
+    }
+
+    h1 {
+        font-family: 'Arvo', cursive;
+    }
+}
+
+@layer components {
+    .drum {
+        @apply outline-none border-8 border-gray-600 text-5xl font-semibold leading-3 mt-48 text-purple-600 shadow-md rounded-lg inline-block w-40 h-40 text-center m-4 bg-white;
+    }
+
+    .set {
+        @apply mx-10 my-0;
+    }
+
+    .game-over {
+        @apply bg-red-500 opacity-80;
+    }
+
+    .pressed {
+        @apply shadow-md opacity-50 shadow-white;
+    }
+
+    .red {
+        @apply text-red-500;
+    }
+
+    .w {
+        background-image: url('/images/tom1.png');
+    }
+
+    .s {
+        background-image: url('/images/tom2.png');
+    }
+
+    .a {
+        background-image: url('/images/tom3.png');
+    }
+
+    .d {
+        background-image: url('/images/tom4.png');
+    }
+
+    .j {
+        background-image: url('/images/snare.png');
+    }
+
+    .k {
+        background-image: url('/images/crash.png');
+    }
+
+    .l {
+        background-image: url('/images/kick.png');
+    }
+
+    .drum {
+        font-family: 'Arvo', cursive;
+    }
+
+}
